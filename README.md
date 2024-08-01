@@ -44,9 +44,9 @@ View the Output: Once the simulation is complete, you can view the output voltag
     𝑉𝑜𝑢𝑡=𝐷×𝑉𝑖𝑛 
 
 # Troubleshooting
-Output Voltage Too Low/High: Check the duty cycle and frequency settings of the 555 timer. Ensure that the component values match the intended design.
-Excessive Ripple: Increase the value of the output capacitor (C2) or use a lower ESR capacitor.
-Simulation Errors: Ensure all component values are correctly placed and there are no open nodes in the schematic.
+  Output Voltage Too Low/High: Check the duty cycle and frequency settings of the 555 timer. Ensure that the component values match the intended design.
+  Excessive Ripple: Increase the value of the output capacitor (C2) or use a lower ESR capacitor.
+  Simulation Errors: Ensure all component values are correctly placed and there are no open nodes in the schematic.
 
 # Contact
 For any questions or issues, please contact Salu Barshad at sbarshad7@gmail.com.
