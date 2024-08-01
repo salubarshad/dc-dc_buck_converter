@@ -34,13 +34,12 @@ The following component values are used in the schematic:
 3. View the Output: Once the simulation is complete, you can view the output voltage by probing the output node in the schematic.
 
 # Adjustments and Fine-Tuning
-1. Frequency Adjustment: To change the frequency of the PWM signal, adjust the values of R1, R2, and C1 in the 555 timer circuit. The frequency is given by:
+- Frequency Adjustment: To change the frequency of the PWM signal, adjust the values of R1, R2, and C1 in the 555 timer circuit. The frequency is given by:
     𝑓=1.44/((𝑅1+2𝑅2)𝐶1)
-​
-2. Duty Cycle Adjustment: To achieve a different duty cycle, adjust the ratio of R1 and R2. The duty cycle is given by:
+- Duty Cycle Adjustment: To achieve a different duty cycle, adjust the ratio of R1 and R2. The duty cycle is given by:
     𝐷=(𝑅1+𝑅2)/(𝑅1+2𝑅2) 
 
-3. Output Voltage: The output voltage of the buck converter is proportional to the duty cycle of the PWM signal. Use the formula:
+- Output Voltage: The output voltage of the buck converter is proportional to the duty cycle of the PWM signal. Use the formula:
     𝑉𝑜𝑢𝑡=𝐷×𝑉𝑖𝑛 
 
 # Troubleshooting
