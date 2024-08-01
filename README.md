@@ -21,12 +21,12 @@ The buck converter circuit consists of the following main components:
 
 # Component Values
 The following component values are used in the schematic:
-  R1 (555 Timer): 10kΩ
-  R2 (555 Timer): 10kΩ
-  C1 (555 Timer): 1.2nF
-  L (Inductor): 5mH
-  C (Output Capacitor): 1.17µF
-  R (Load Resistor): 10Ω
+1. R1 (555 Timer): 10kΩ
+2. R2 (555 Timer): 10kΩ
+3. C1 (555 Timer): 1.2nF
+4. L (Inductor): 5mH
+5. C (Output Capacitor): 1.17µF
+6. R (Load Resistor): 10Ω
   
 # Simulation Instructions
 1. Open the Schematic: Open BuckConverter.asc in LTspice.
