@@ -1,7 +1,7 @@
 # DC-DC Buck Converter
 
 # Project Overview
-This project involves the simulation of a DC-DC buck converter using the LTspice simulation tool. The buck converter steps down a higher input voltage to a lower output voltage, with a specific focus on achieving a 10V output from a 30V input using a 555 timer IC for PWM control.
+This project involves a DC-DC buck converter using the LTspice simulation tool. The buck converter steps down a higher input voltage to a lower output voltage, with a specific focus on achieving a 10V output from a 30V input using a 555 timer IC for PWM control.
 
 # Files Included
 1. BuckConverter.asc: The LTspice schematic file for the DC-DC buck converter.
