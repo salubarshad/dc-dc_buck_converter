@@ -29,9 +29,9 @@ The following component values are used in the schematic:
   R (Load Resistor): 10Ω
   
 # Simulation Instructions
-Open the Schematic: Open BuckConverter.asc in LTspice.
-Run the Simulation: Click the "Run" button (the running man icon) to start the simulation.
-View the Output: Once the simulation is complete, you can view the output voltage by probing the output node in the schematic.
+1. Open the Schematic: Open BuckConverter.asc in LTspice.
+2. Run the Simulation: Click the "Run" button (the running man icon) to start the simulation.
+3. View the Output: Once the simulation is complete, you can view the output voltage by probing the output node in the schematic.
 
 # Adjustments and Fine-Tuning
 1. Frequency Adjustment: To change the frequency of the PWM signal, adjust the values of R1, R2, and C1 in the 555 timer circuit. The frequency is given by:
@@ -44,9 +44,9 @@ View the Output: Once the simulation is complete, you can view the output voltag
     𝑉𝑜𝑢𝑡=𝐷×𝑉𝑖𝑛 
 
 # Troubleshooting
-  Output Voltage Too Low/High: Check the duty cycle and frequency settings of the 555 timer. Ensure that the component values match the intended design.
-  Excessive Ripple: Increase the value of the output capacitor (C2) or use a lower ESR capacitor.
-  Simulation Errors: Ensure all component values are correctly placed and there are no open nodes in the schematic.
+- Output Voltage Too Low/High: Check the duty cycle and frequency settings of the 555 timer. Ensure that the component values match the intended design.
+- Excessive Ripple: Increase the value of the output capacitor (C2) or use a lower ESR capacitor.
+- Simulation Errors: Ensure all component values are correctly placed and there are no open nodes in the schematic.
 
 # Contact
 For any questions or issues, please contact Salu Barshad at sbarshad7@gmail.com.
